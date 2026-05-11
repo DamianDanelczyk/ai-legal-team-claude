@@ -1,15 +1,7 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="AI Legal Assistant for Claude Code" width="900"/>
-</p>
+> **AI-powered contract analysis and legal document generation for Claude Code.**
+> Review contracts, identify risks, generate NDAs, run compliance checks, negotiate terms, and create professional PDF reports — all directly from your terminal.
 
-<p align="center">
-  <strong>AI-powered contract review and legal document generation.</strong> Review contracts, flag risks,<br/>
-  generate NDAs, check compliance, negotiate terms, and produce client-ready PDF reports — all from Claude Code.
-</p>
-
-<p align="center">
-  Every contract has hidden risks. This tool finds them in 60 seconds.
-</p>
+Every contract contains hidden risks. This toolkit uncovers them in under 60 seconds.
 
 ---
 
@@ -29,7 +21,7 @@
 ## Quick Start
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-legal-claude/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/DamianDanelczyk/ai-legal-team-claude/main/install.sh | bash
 ```
 
 That's it. One command installs all 14 skills, 5 agents, and the PDF generation scripts.
@@ -116,14 +108,13 @@ Results are aggregated into a unified report with a single Contract Safety Score
 - Add contract review to your service offering
 - Generate professional PDF reports for clients
 - Offer monthly legal document management retainers
-- Pair with the AI Marketing Suite and AI Sales Team
 
 ---
 
 ## Project Structure
 
 ```
-ai-legal-claude/
+ai-legal-team-claude/
 ├── legal/
 │   └── SKILL.md                    # Main orchestrator (command router)
 ├── skills/
@@ -168,7 +159,7 @@ ai-legal-claude/
 ## Uninstall
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-legal-claude/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/DamianDanelczyk/ai-legal-team-claude/main/uninstall.sh | bash
 ```
 
 Or run locally:
@@ -187,11 +178,6 @@ This tool is for educational and informational purposes only. It does **not** pr
 
 <p align="center">
   <strong>Part of the Claude Code Skills Series</strong><br>
-  <a href="https://github.com/zubair-trabzada/ai-marketing-claude">AI Marketing Suite</a> ·
-  <a href="https://github.com/zubair-trabzada/ai-sales-team-claude">AI Sales Team</a> ·
+  <a href="https://github.com/DamianDanelczyk/ai-sales-team-premium">AI Sales Team</a> ·
   <strong>AI Legal Assistant</strong>
-</p>
-
-<p align="center">
-  <a href="https://www.skool.com/aiworkshop">🎓 Learn How to Sell Claude Code Services to Real Businesses</a>
 </p>
